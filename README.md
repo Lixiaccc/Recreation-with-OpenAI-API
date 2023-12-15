@@ -21,20 +21,17 @@ const openai = new OpenAI({
 ```                                     
 within project/clone/**openai.js**
 
-**org key can be found on the settings**
+**org key can be found on the settings, under Organization ID**
 
-**API key can be found on the API keys section**
+**API key can be found on the API keys section, Create New Secrete key**
 
 This will enable the openAI API. 
 Then, follow the instructions below      
 
-
-
-
-
-
-
-Here are some Limitaiton: 
+Here are some Limitaiton of this program:
+ 1) This program didn't use the newest version of openAI chat model, therefore, it can not handle many complicated orders.
+ 2) This program will onnly last till Jan 13 2024, because the model will not be valid anymore after this.
+ 3) Thia program will not work publicitly, can not deploy or use in any browse due to the policy of openAI API Key.
 
 # Getting Started with Create React App
 
