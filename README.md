@@ -22,6 +22,7 @@ const openai = new OpenAI({
 within project/clone/**openai.js**
 
 **org key can be found on the settings**
+
 **API key can be found on the API keys section**
 
 This will enable the openAI API. 
