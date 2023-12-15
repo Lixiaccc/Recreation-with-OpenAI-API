@@ -7,7 +7,7 @@ Here are some Functionality:
   2) You can refresh the Page with New chat on the side bar
   3) There is two example questions that can use by clicking it on the side bar. 
 
-###**Must-do prior to testing out the program**
+#**Must-do prior to testing out the program**
 Once you download the zipfile and unzip, 
 1. Set API key                       
 Get your OpenAI API key from [here](https://platform.openai.com/account/api-keys) and set it as:
