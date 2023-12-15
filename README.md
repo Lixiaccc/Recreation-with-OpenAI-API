@@ -5,18 +5,33 @@ This is a Simple recreation of Chatgpt using public API from OpenAI websites.
 Here are some Functionality:
   1) You can ask questions 
   2) You can refresh the Page with New chat on the side bar
-  3) There is two example questions that can use by clicking it on the side bar. 
+  3) There is two example questions that can use by clicking it on the side bar.
+      
 
-# **Must-do prior to testing out the program**
+# **Must-Do Prior to Testing Out the Program**
 Once you download the zipfile and unzip, 
-1. Set API key                       
-Get your OpenAI API key from [here](https://platform.openai.com/account/api-keys) and set it as:
+1. Set organization&API keys                   
+Get your OpenAI API keys from [here](https://platform.openai.com/account/api-keys) and set it as:
 ```                                     
-openai.api_key = 'sk-'
+const openai = new OpenAI({
+  organization: '<org KEY>',
+  apiKey: '<API KEY>',
+  dangerouslyAllowBrowser: true
+});
 ```                                     
 within project/clone/**openai.js**
+
+**org key can be found on the settings**
+**API key can be found on the API keys section**
+
 This will enable the openAI API. 
-Then, follow the instructions below                         
+Then, follow the instructions below      
+
+
+
+
+
+
 
 Here are some Limitaiton: 
 
