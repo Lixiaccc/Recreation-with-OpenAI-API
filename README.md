@@ -4,8 +4,8 @@ This is a Final Project for the course : Full Stack Web Development- COMS W3102 
 This is a Simple recreation of Chatgpt using public API from OpenAI websites.
 Here are some Functionality:
   1) You can ask questions 
-  2) You can refresh the Page with New chat on the side bar
-  3) There is two example questions that can use by clicking it on the side bar.
+  2) You can refresh the Page with the New Chat on the side bar. 
+  3) There is two example questions that can be use on the side bar, GPT will answer it if you click on it. 
       
 
 # **Must-Do Prior to Testing Out the Program**
