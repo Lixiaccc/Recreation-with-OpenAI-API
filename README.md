@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 README:
 This is a Final Project for the course : Full Stack Web Development- COMS W3102 Section 2 in Columbia University.
 This is a Simple recreation of Chatgpt using public API from OpenAI websites.
@@ -78,3 +79,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# final
+>>>>>>> 9eb2e4f129cb32b91d939dff628230044a81b839
