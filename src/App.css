@@ -9,8 +9,8 @@ html{
 }
 
 body{
-  background:rgb(3, 0, 31);
-  color:white;
+  background:#F2F2F2;
+  color:White;
   font-family: "Poppins", sans-serif;
   position: fixed;
 }
@@ -21,7 +21,8 @@ body{
 
 .sideBar{
   flex: 3;
-  border-right: 1px solid rgb(100, 100, 100);
+  border-right: 1px solid rgba(98,98,98,1);
+  background: black;
 }
 
 .main{
@@ -43,14 +44,16 @@ body{
 
 .upperSide{
   padding: 2.5rem;
-  border-bottom: 1px solid rgb(100, 100, 100);
+  border-bottom: 1px solid rgba(98,98,98,1);
   height: 70%;
+  background: black;
 }
 
 .upperSideTop{
   display: flex;
   align-items: center;
   margin-bottom: 2.5rem;
+  
 }
 
 .addBtn{
@@ -59,11 +62,11 @@ body{
 }
 
 .midBtn{
-  background: #5A4BFF;
-  border: none;
+  background: black;
+  border: 1px solid  white;
   color: white;
   padding: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.90rem;
   width: 25rem;
   display: flex;
   align-items: center; 
@@ -76,23 +79,25 @@ body{
 .query{
   display: flex;
   align-items: center; 
-  background: transparent;
-  color: rgba(222, 222, 222, 1);
+  background: black;
+  color: white;
   padding: 1.5rem;
   width: 25rem;
   margin: 1rem auto;
   border-radius: 0.5rem;
-  border: 1px solid rgba(98,98,98,1);
+  border: none;
 }
 
 .query>img{
   margin-right: 2rem;
   object-fit:cover;
   height: 1.75rem;
+  background: black;
 }
 
 .lowerSide{
   padding: 2rem;
+  background: black;
 }
 
 .listItems{
@@ -100,6 +105,7 @@ body{
   display: flex;
   align-items: center;
   font-size:1.3rem;
+  background: black;
 }
 
 .listItemsImg{
@@ -129,7 +135,6 @@ body{
   width: 100%;
   max-width: 70rem;
   height: calc(100vh- 17rem);  
-    
 }
 .chats::-webkit-scrollbar {
   width: 10px; /* Set the width of the scrollbar */
@@ -148,10 +153,9 @@ body{
   width: 3.5rem;
   margin-right: 2rem;
   border-radius: 0.5rem;
-
 }
 .bot{
-  background: rgba(28,30,58,1);
+  background: #e4e4e4;
   width: fit-content;
   border-radius: 0.5rem;
 }
@@ -168,7 +172,7 @@ body{
 
 .inp{
   padding: 0.5rem;
-  background: rgba(28,30,58,1);
+  background:black;
   display: flex;
   align-items: center;
   border-radius:0.5rem;
@@ -190,9 +194,10 @@ body{
 .chatFooter>p{
   margin: 7rem ;
   margin-top: 2rem;
+  color: #191919;
 }
 
 .txt{
   line-height: 2.4rem;
-  color: rgba(222,222,222,1)
+  color:#191919;
 }

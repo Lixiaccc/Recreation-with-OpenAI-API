@@ -71,8 +71,8 @@ function App() {
           <div className="upperSideTop"> <img src={gptLogo} alt="Logo" className="logo" /><span className="brand"> ChatGPT </span> </div>
           <button className="midBtn" onClick={()=>{window.location.reload()}}> <img src={addBtn}  alt="new chat" className="addBtn" />New Chat</button>
           <div className="upperSideBottom">
-              <button className="query" onClick={handleQuery} value={"What is Programming?"}><img src={msgIcon} alt="Query" /> What is Programming?</button>
-              <button className="query" onClick={handleQuery} value={"How to use an API? "}><img src={msgIcon} alt="Query" /> How to use an API? </button>
+              <button className="query" onClick={handleQuery} value={"What two words every programmer learned to code first?"}><img src={msgIcon} alt="Query" /> Two words every programmer learned to code first</button>
+              <button className="query" onClick={handleQuery} value={"How many programmers does it take to change a light bulb?"}><img src={msgIcon} alt="Query" /> How many programmers does it take to change a light bulb? </button>
           </div>
 
         </div>
