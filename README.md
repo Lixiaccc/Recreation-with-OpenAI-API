@@ -1,3 +1,13 @@
+README:
+This is a Final Project for the course : Full Stack Web Development- COMS W3102 Section 2 in Columbia University.
+This is a Simple recreation of Chatgpt using public API from OpenAI websites.
+Here are some Functionality:
+  1) You can ask questions 
+  2) You can refresh the Page with New chat on the side bar
+  3) There is two example questions that can use by clicking it on the side bar. 
+
+Here are some Limitaiton: 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
