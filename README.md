@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 README:
 This is a Final Project for the course : Full Stack Web Development- COMS W3102 Section 2 in Columbia University.
 This is a Simple recreation of Chatgpt using public API from OpenAI websites.
@@ -6,6 +6,17 @@ Here are some Functionality:
   1) You can ask questions 
   2) You can refresh the Page with New chat on the side bar
   3) There is two example questions that can use by clicking it on the side bar. 
+
+###**Must-do prior to testing out the program**
+Once you download the zipfile and unzip, 
+1. Set API key                       
+Get your OpenAI API key from [here](https://platform.openai.com/account/api-keys) and set it as:
+```                                     
+openai.api_key = 'sk-'
+```                                     
+within project/clone/**openai.js**
+This will enable the openAI API. 
+Then, follow the instructions below                         
 
 Here are some Limitaiton: 
 
@@ -81,4 +92,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # final
->>>>>>> 9eb2e4f129cb32b91d939dff628230044a81b839
+
